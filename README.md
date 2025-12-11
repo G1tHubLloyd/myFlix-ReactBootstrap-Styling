@@ -13,7 +13,7 @@ This project is a React-based movie application styled with **React Bootstrap** 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/myFlix.git
+git https://github.com/G1tHubLloyd/myFlix-ReactBootstrap-Styling
 cd myFlix
 npm install
 npm start
