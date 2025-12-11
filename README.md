@@ -14,7 +14,8 @@ Clone the repository and install dependencies:
 
 ```bash
 git https://github.com/G1tHubLloyd/myFlix-ReactBootstrap-Styling
-cd myFlix
+cd myFlix-ReactBootstrap-Styling
 npm install
 npm start
+
 
