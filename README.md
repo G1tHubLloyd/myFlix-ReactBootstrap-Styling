@@ -25,7 +25,7 @@ npm install
 npm start
 ```
 
-The app will open automatically at `http://localhost:3000` (or the next available port if 3000 is in use).
+The app runs at the next available port (e.g., `http://localhost:3000`, `3001`, `3002`).
 
 ## 📦 Dependencies
 - **react** (^18.2.0) - JavaScript library for building user interfaces
@@ -38,14 +38,26 @@ The app will open automatically at `http://localhost:3000` (or the next availabl
 ## 🎬 Project Structure
 ```
 src/
-├── App.jsx           - Main application component
-├── index.jsx         - React entry point
-├── index.scss        - Global styles
+├── App.jsx           - Main application content (wrapped by Container in index.jsx)
+├── index.jsx         - React entry point (global Bootstrap Container wrapper)
+├── index.scss        - Global styles and custom theme overrides
 └── components/
     ├── LoginView.jsx - Login form component
-    ├── MainView.jsx  - Movies list component
+    ├── MainView.jsx  - Movies list component (Bootstrap Row/Col grid)
     └── MovieCard.jsx - Individual movie card component
 ```
+
+## 🎨 Styling
+- Custom SCSS theme in `src/index.scss` for consistent typography, buttons, cards, and form inputs.
+- Uses Bootstrap variables and lightweight overrides (hover transitions, shadows, rounded corners).
+
+## 🔧 Layout
+- Global `Container` applied in `index.jsx` for responsive spacing.
+- View-level grids built with `Row` and `Col` in `MainView.jsx`.
+
+## 🧭 Workflow
+- Active branch: `feature/react-bootstrap-styling`
+- Pull request: https://github.com/G1tHubLloyd/myFlix-ReactBootstrap-Styling/pull/1
 
 ## 🛠️ Available Scripts
 
